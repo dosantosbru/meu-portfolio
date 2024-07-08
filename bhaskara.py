@@ -12,7 +12,7 @@ def bhaskara(a, b, c):
 
     if delta > 0:
         x1 = (-b + math.sqrt(delta)) / (2 * a)
-        x2 = (-b - math.sqrt(delta)) / (2*a)
+        x2 = (-b - math.sqrt(delta)) / (2 * a)
         raizes = (x1, x2)
         print(f"As raízes são: {raizes}")
 
