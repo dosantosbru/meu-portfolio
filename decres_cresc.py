@@ -1,3 +1,14 @@
-valor = (input("digite um valor da sequencia: "))
-valores_ordenados = sorted(valor)
-            print(f"Os valores ordenados são: {valores_ordenados}")
+decrescente = True
+anterior = int(input("Digite o primeiro número da sequência:"))
+valor = 1
+
+while valor != 0 and decrescente:
+    valor = int(input("Digite um valor: "))
+    if valor > anterior:
+        decrescente = False
+    anterior = valor
+
+if decrescente:
+    print("A sequência está em ordem decrescente!")
+else:
+    print("A sequência não está em ordem decrescente!")
