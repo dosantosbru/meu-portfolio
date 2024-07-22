@@ -8,6 +8,7 @@ def fatorial(x):
 
 
 """
+loop que calcula o fatorial de x, quando não se quer usar a biblioteca python
 def fatorial(x):
     i = fat = 1
     while i <= x:
