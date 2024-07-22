@@ -6,21 +6,7 @@
     "configurations": [
         {
             "name": "Depurador do Python: Arquivo Atual",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Depurador do Python: Arquivo Atual",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Depurador do Python: Arquivo Atual",
-            "type": "debugpy",
+            "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
