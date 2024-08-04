@@ -116,4 +116,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# anotacoes
+Introducao_ciencia_computacao_python_USP\anotacoes.md
+
 # End of https://www.toptal.com/developers/gitignore/api/python
